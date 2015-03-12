@@ -10,5 +10,5 @@ when changes are made you need to restart the server by ctrl+C in terminal
 
 ctrl+C  - if you need the application to stop from running
 git add -A
-git commit
+git commit -m "Message"
 git push
