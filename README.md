@@ -1,6 +1,6 @@
 #README#
 
-Guest regisration for wedding dinner.
+Guest regisration for an event.
 
 
 """
