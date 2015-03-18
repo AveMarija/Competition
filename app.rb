@@ -16,10 +16,13 @@ post '/' do
 	@Age = params[:InputAge]
 	@Vegetarian = params[:InputVeg]
 	
-	
 	redirect '/thanks'
 end
 
 get '/thanks' do
 	erb :thanks
+end
+
+get '/about' do
+	erb :about
 end

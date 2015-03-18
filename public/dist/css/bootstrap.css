@@ -11,6 +11,7 @@ html {
       -ms-text-size-adjust: 100%;
 }
 body {
+  text-align: center;
   margin: 0;
 }
 article,
@@ -60,8 +61,9 @@ dfn {
   font-style: italic;
 }
 h1 {
-  margin: .67em 0;
+  margin: .67em 40px;
   font-size: 2em;
+
 }
 mark {
   color: #000;
@@ -736,6 +738,9 @@ pre code {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+}
+.starter-template {
+  margin-top: 60px;
 }
 @media (min-width: 768px) {
   .container {
