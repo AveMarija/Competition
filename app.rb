@@ -30,3 +30,7 @@ end
 get '/contact' do
 	erb :contact
 end
+
+get '/competition' do
+	erb :competition
+end
