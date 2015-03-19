@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Event registration</title>
+  <title>Jo's wedding</title>
   
   <link rel="stylesheet" href="/dist/css/bootstrap.css">
   <link rel="stylesheet" href="/main.css">
@@ -11,14 +11,14 @@
   		position: relative;
   		top: 50px;
   	} 
+    .title{
+      font-size: 80px;
+    }
 
   </style>
 
 </head>
 <body>
-
-  <%= yield %>
-
      <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
@@ -40,6 +40,10 @@
         </div><!--/.nav-collapse -->
       </div>
     </nav>
+
+    <div class="container">
+      <%= yield %>
+    </div>
 
 </body>
 </html>
